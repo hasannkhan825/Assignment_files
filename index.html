@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID Stats</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <!-- <script src = "./Ajax.js"></script> -->
+    <script src = "./Map_Data.js"></script>
+    <script src = "./Map_Render.js"></script>
+    <script src = "./Line_chart.js"></script>
+    <script src = "./newsAPI.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+
+    
+</head>
+<body>
+
+    
+  <div id="wrapper">
+    <div id="container"></div>
+      <div id="info">
+          <span class="f32"><span id="flag"></span></span>
+          <div class="subheader">Click countries to view total cases</div>
+          <h2></h2>
+          <br>
+          <h3></h3>
+          <br>
+          <h4></h4>
+        
+          <div id="country-chart"></div>
+        </div>
+      </div>
+    </div>
+
+  <div class="news-container">
+    <ul class="news-list"></ul>
+  </div>
+  <div id= "container2"></div>
+
+
+    <!-- <table class = "total-stat-table"> 
+        <thead>
+            <tr>
+            <th>Country</th>
+            <th>Total Cases</th>
+            </tr>
+        </thead>
+        <tr>
+          <td class= 'count_1'></td>
+          <td class= 'total_1'></td>
+        </tr>
+        <tr>
+          <td class = 'count_2'></td>
+          <td class = 'total_2'></td>
+        </tr>
+      </table> -->
+
+
+</body>
+</html>
