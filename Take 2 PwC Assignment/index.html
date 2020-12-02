@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PwC Assingment Try 2</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="http://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <!-- <script src ="./data_replacement.js"></script> -->
+    <script src = "./Maps.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <div id="wrapper">
+        <div id="container"></div>
+        <div id="info">
+            <span class="f32"><span id="flag"></span></span>
+            <h2></h2>
+            <div class="subheader">Click countries to view history</div>
+            <div id="country-chart"></div>
+        </div>
+    </div>
+
+
+    <div class="my-table">
+        <h1>History of COVID-19 cases of selected country</h1>
+        <table class="data-table">
+
+        
+            <tr>
+                <th>Date</th>
+                <th>Cases</th>
+                <th>Increase</th>
+            </tr>
+
+        <tr id = "day1">
+            <td class = "date"></td>
+            <td class=  "cases"></td>
+            <td class = "increase"></td>
+        </tr>
+
+          <tr id ="day2">
+              <td class="date"></td>
+              <td class = "cases"></td>
+              <td class = "increase"></td>
+          </tr>
+          
+          <tr id = "day3">
+              <td class="date"></td>
+              <td class = "cases"></td>
+              <td class = "increase"></td>
+          </tr>
+
+         <tr id = "day4">
+             <td class="date"></td>
+             <td class = "cases"></td>
+             <td class = "increase"></td>
+         </tr>
+     </table>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
